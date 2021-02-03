@@ -10,7 +10,11 @@
 
 .buscador{
 
-width: 30rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
 
 }
 /*BANNER1*/
@@ -116,6 +120,11 @@ h2{
 
     width: 25rem;
 }
+.boton1{
+
+padding: 0.3rem;
+
+}
 
 }
 
@@ -140,6 +149,10 @@ h2{
     .imagen-card3{
         padding: 0.4rem;
     }
+    .caja-buscador{
+        width: 30rem;
+       
+    }
   }
     
  
@@ -148,12 +161,21 @@ h2{
         
         margin-left: auto;
     }
-    
+    .caja-buscador{
+        width: 30rem;
+       
+    }
  }
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-    
+    .caja-buscador{
+        width: 30rem;
+       
+    }
  }
 @media (min-width: 1200px) {
-
     
+    .caja-buscador{
+        width: 30rem;
+       
+    }
   }
